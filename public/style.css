@@ -1,0 +1,196 @@
+html { 
+  background: url(https://images.unsplash.com/photo-1460152129645-978c4acde887?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.body{
+  margin-top: 350px;
+  position: relative;
+}
+
+.container{
+  padding-top:216px;
+  padding-left: 41px;
+   width: 200px;
+    height: 260px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+
+.title{
+    
+    font-family: 'Playfair Display SC', serif;
+    color: #F07444;
+    font-size: 40px;
+    padding: 50px;
+    margin-top: 123px;
+    margin-bottom: -267px;
+    padding-left: 158px;
+    margin-left: -44px;
+  }
+
+.form-group{
+  margin-left: 20px;
+}
+
+.form-control{
+    margin: 0px;
+    width: 504px;
+    height: 301px;
+    border-radius: 8px;
+}
+
+.card-container {
+  cursor: pointer;
+  height: 301px;
+  perspective: 600;
+  position: relative;
+  width: 504px;
+  margin-top: 221px;
+  margin-left: 17px;
+}
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+
+  width: 100%;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*  .card:hover {
+  transform: rotateY(180deg);
+}*/
+.card .side {
+/*  backface-visibility: hidden;*/
+  border-radius: 6px;
+  height: 100%;
+/*  position: absolute;*/
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 504px;
+  text-align: center;
+ /* transform: rotateY(180deg);*/
+   -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+img {
+  max-height: 120%;
+  max-width: 120%;
+}
+
+#text-input {
+    margin: 0px;
+    width: 504px;
+    height: 301px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#label{
+  margin-bottom: 50px
+}
+
+.sm {
+    width: 41%;
+    height: 41px;
+}
+.submit-text {
+    font-family: 'Playfair Display SC', serif;
+    background-color: transparent;
+    color: #F07444;
+    border: 1px solid #F07444;
+    transition: .2s ease;
+    display: block;
+    margin: 0 auto;
+}
+button{
+  text-align: center;
+}
+.button-wrap{
+  width: 500px;
+}
+*@media screen and (min-width: 1024px){
+    .responsive-image{
+        background-image: url('../img/retina.jpg');
+    }
+}
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .responsive-image{
+        background-image: url('../img/desktop.jpg');
+    }
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .responsive-image{
+        background-image: url('../img/tablet.jpg');
+    }
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .responsive-image{
+        background-image: url('../img/mobile-hd.jpg');
+    }
+}
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .responsive-image{
+        background-image: url('../img/mobile-ld.jpg');
+    }
+}
+
+
+http://gratisography.com/pictures/262_1.jpg
+http://gratisography.com/pictures/229_1.jpg
+http://gratisography.com/pictures/210_1.jpg
+http://colorlisa.com/pictures/145_1.jpg
+http://colorlisa.com/pictures/hollown_1.jpg
+https://images.unsplash.com/photo-1446161543652-83eaa65fddab?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375
+https://images.unsplash.com/photo-1442458370899-ae20e367c5d8?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375
