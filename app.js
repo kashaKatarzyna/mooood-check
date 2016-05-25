@@ -13,6 +13,8 @@ var toneAnalyzer = watson.tone_analyzer({
  version: 'v3-beta'
 });
 
+mongoose.connect(process.env.MONGOLAB_SILVER_URI || 'mongodb://localhost/rereddit-dev');
+
 app.use(bodyParser.json());   // This is the type of body we're interested in
 app.use(bodyParser.urlencoded({extended: false}));
 
